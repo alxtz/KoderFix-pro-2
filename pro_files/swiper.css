@@ -2,11 +2,11 @@
  * Swiper 3.0.6
  * Most modern mobile touch slider and framework with hardware accelerated transitions
  * 
- * http://www.idangero.us/swiper/
+ * https://cors-anywhere.herokuapp.com/http://www.idangero.us/swiper/
  * 
  * Copyright 2015, Vladimir Kharlampidi
  * The iDangero.us
- * http://www.idangero.us/
+ * https://cors-anywhere.herokuapp.com/http://www.idangero.us/
  * 
  * Licensed under MIT
  * 

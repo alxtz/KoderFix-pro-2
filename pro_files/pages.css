@@ -505,6 +505,21 @@ body.pace-white .pace .pace-progress {
   position: relative!important
 }
 
+.header .menu>li.horizontal>span.arrow {
+  background-image: url(../images/white.svg);
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 7px;
+  left: calc(50% - 14px);
+  margin-top: 8px;
+  position: absolute;
+  z-index: 2;
+
+  opacity: 0;
+  /*transition: opacity 0.2s;*/
+  transition: none;
+}
+
 .header .menu>li.open.horizontal>span.arrow {
   background-image: url(../images/white.svg);
   background-repeat: no-repeat;
@@ -513,7 +528,10 @@ body.pace-white .pace .pace-progress {
   left: calc(50% - 14px);
   margin-top: 8px;
   position: absolute;
-  z-index: 2
+  z-index: 2;
+
+  opacity: 1;
+  transition: opacity 0.2s;
 }
 
 .header .menu>li.open.horizontal>span.arrow:before {
@@ -584,7 +602,8 @@ body.pace-white .pace .pace-progress {
 }
 
 .header .menu>li.open>.horizontal, .header .menu>li.open>.mega {
-  display: block
+  opacity: 1;
+  transition: opacity 0.2s;
 }
 
 .header .menu>li.classic {
@@ -691,11 +710,16 @@ body.pace-white .pace .pace-progress {
   position: fixed;
   background-color: #fff;
   list-style: none;
-  display: none;
   left: 0;
   right: 0;
   width: 100%;
-  border-bottom: 1px solid #e6e6e6
+  border-bottom: 1px solid #e6e6e6;
+
+  /*display: none;*/
+  opacity: 0;
+  transition: none;
+  /*transition-property: color, background-color, opacity;
+  transition-duration: 0.1s, 0.1s, 0.2s;*/
 }
 
 .header .menu>li>.horizontal.dark {

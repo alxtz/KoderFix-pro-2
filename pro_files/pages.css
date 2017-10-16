@@ -8248,7 +8248,7 @@ sup.dollar {
   }
 }
 
-@media only screen and (min-width:980px) {
+@media only screen and (min-width:992px) {
   .menu-content {
     -webkit-transform: none!important;
     -ms-transform: none!important;
@@ -8598,10 +8598,17 @@ sup.dollar {
     padding-bottom: 15px;
     padding-left: 0
   }
-  .header .menu>li>.horizontal {
+  .header .menu>li>.horizontal, .header .menu>li>.horizontal>.container {
     position: relative;
     margin-top: 0;
-    border: 0
+    border: 0;
+
+    max-height: 0px;
+    transition: max-height 0.5s;
+  }
+  .header .menu>li.open>.horizontal, .header .menu>li.open>.horizontal>.container{
+    max-height: 500px;
+    transition: max-height 0.5s;
   }
   .header .menu>li>.horizontal .container {
     padding: 0

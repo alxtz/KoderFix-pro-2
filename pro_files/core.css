@@ -136,12 +136,13 @@ body.pace-gray .pace .pace-progress {
 }
 
 #home-jumbo-footer {
+	/*display: none;*/
 	height: 200px;
 	padding-top: 20px;
 }
 
 #home-jumbo-footer .block-title{
-	
+
 }
 
 /* 11 */
@@ -228,7 +229,7 @@ body.pace-gray .pace .pace-progress {
 }
 
 #home-hero-1 .slide-2 .link {
-	color: #5e419a !important;
+	/*color: #5e419a !important;*/
 	font-weight: bold;
 }
 
@@ -273,6 +274,11 @@ body.pace-gray .pace .pace-progress {
 /*** iPad Mini (make image smaller and center it) ***/
 @media (min-width: 992px) and (max-width: 1200px) {
 
+	h2.visible-md {
+		padding-bottom: 20px;
+
+	}
+
 	#home-hero-1 .slide-1 .bg-elements {
 		width: 1000px;
 		margin-left: -480px;
@@ -282,13 +288,17 @@ body.pace-gray .pace .pace-progress {
 	#home-hero-1 .slide-2 .bg-elements {
 		width: 840px;
 		margin-left: -420px;
+
+		width: 110vw;
+    margin-left: 0;
+    left: -5vw;
 	}
 
 	#home-hero-1 #slide-2-content {
 		padding-bottom: 250px !important; /* Reset the bottom padding applied inline. */
 	}
 
-	
+
 
 	#home-jumbo-footer {
 		height: 180px;
@@ -298,7 +308,7 @@ body.pace-gray .pace .pace-progress {
 /*  */
 @media (max-width: 991px) {
 	.sm-m-t-80 {
-		margin-top: 80px !important;
+		margin-top: 112px !important;
 	}
 }
 

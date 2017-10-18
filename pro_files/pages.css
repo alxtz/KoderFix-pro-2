@@ -6905,7 +6905,7 @@ input:-webkit-autofill:focus {
 }
 
 .p-b-100 {
-  padding-bottom: 100px!important
+  /*padding-bottom: 100px!important*/
 }
 
 .padding-100 {
@@ -8802,7 +8802,7 @@ sup.dollar {
     margin-bottom: 30px!important
   }
   .sm-no-margin {
-    margin: 0!important
+    /*margin: 0!important*/
   }
   .sm-no-padding {
     padding: 0!important

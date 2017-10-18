@@ -1,0 +1,219 @@
+body {
+  color: #525252;
+}
+
+
+.light-logo {
+  font-weight: 600 !important;
+  font-size: 60px !important;
+  margin-bottom: 20px;
+  white-space: nowrap;
+}
+
+
+.alxtz-center {
+  /*width: 60%;*/
+  padding: 0;
+  margin-top: 100px;
+}
+#home-hero-1 .bg-elements {
+  top: auto;
+  bottom: 0 !important;
+}
+
+.alxtz-call-to-action {
+  margin-top: 100px !important;
+  /*font-size: 20px !important;*/
+}
+
+.alxtz-contact {
+  font-size: 14px !important;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+  margin-top: 20px;
+}
+
+.alxtz-contact a{
+  text-decoration: none !important;
+}
+
+.alxtz-contact:hover {
+  text-decoration: underline !important;
+}
+
+h6.block-title {
+  font-size: 18px;
+}
+
+p {
+  font-weight: 400;
+}
+
+.alxtz-hide {
+  display: none;
+}
+
+.col-sm-4.no-padding:hover .muted {
+  transition: opacity 0.5s;
+  opacity: 0.9;
+}
+
+#home-jumbo-footer {
+  position: static;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  height: 210px;
+}
+
+.alxtz-action {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  color: #5e419a !important;
+}
+
+.alxtz-action:hover {
+  background-color: #5e419a !important;
+  color: white !important;
+}
+
+.alxtz-inline {
+  font-weight: 400;
+}
+
+.block-title {
+  font-size: 13px !important;
+}
+
+.alxtz-block-title {
+  font-size: 15px !important;
+}
+
+.alxtz-fix {
+  border-right: none !important;
+}
+
+.alxtz-15 {
+  font-size: 15px !important;
+  /*letter-spacing: 2px;*/
+}
+
+.about-team-member h5 {
+  font-weight: 500;
+}
+
+.alxtz-apply {
+  font-family: Montserrat;
+  text-transform: uppercase;
+}
+.text-master {
+  font-weight: 400;
+}
+
+.alxtz-blue-title {
+  margin-top: 100px;
+  /*font-weight: 600 !important;*/
+}
+
+.muted {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+
+.block-title.p-b-5 {
+  font-size: 18px !important;
+}
+
+p.m-b-30 {
+  font-size: 17px !important;
+}
+
+.hint-text {
+  font-weight: 500;
+}
+
+#headerAction .menu {
+  padding-left: 0;
+}
+
+.header .menu>li:last-child {
+  margin-right: 0;
+}
+
+.col-sm-4.col-xs-12.xs-m-b-40 p.muted{
+  /*font-size: 14px !important;*/
+}
+
+.alxtz-40 {
+  font-size: 40px !important;
+  /*margin-bottom: 50px !important;*/
+}
+
+.alxtz-see-button {
+  font-size: 16px !important;
+  border: 2px solid white !important;
+  padding: 10px 28px !important;
+  border-radius: 3px;
+  padding-top: 5px;
+  color: white !important;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+@media (max-width:991px) {
+  .light-logo {
+    font-weight: 600 !important;
+    font-size: 4.9vw !important;
+    line-height: 6vw !important;
+    white-space: nowrap;
+  }
+
+  .alxtz-block-title {
+    font-size: 15px !important;
+    margin-bottom: 15px;
+  }
+  .alxtz-contact {
+    font-size: 1.5vw !important;
+    display: none;
+  }
+
+  #home-hero-1{
+    height: 66%;
+  }
+
+  .alxtz-blue-wrap {
+    margin-top: 16vw !important;
+  }
+
+  .header.bg-header .header-inner{
+    line-height: 9vw;
+  }
+
+  .header.bg-header .menu-toggler {
+    margin-top: 3vw;
+  }
+
+  .alxtz-mg-80 {
+    margin-bottom: 12vw !important;
+  }
+  .block-title.p-b-5 {
+    font-size: 17px !important;
+  }
+
+  .alxtz-call-to-action {
+    margin-top: 10vw !important;
+  }
+}
+
+@media (max-width:767px) {
+  nav.transparent-light {
+    transition: background-color 0.4s ease, opacity 0.4s ease;
+    opacity: 0;
+  }
+  nav.dark {
+    transition: background-color 0.4s ease, opacity 0.4s ease;
+    opacity: 1;
+  }
+  .block-title.m-b-0.brand {
+    margin-top: 20px; 
+  }
+}
